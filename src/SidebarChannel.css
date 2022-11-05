@@ -1,0 +1,53 @@
+.SidebarChannel:hover > h4{
+  color: white;
+  background-color: #40464b;
+}
+.SidebarChannel>h4{
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  background-color: #2f3135;
+  color: gray;
+  cursor: pointer;
+}
+.sidebarChannelHash{
+  font-size: 30px;
+  padding: 8px;
+}
+.sidebarVoice, .sidebarProfile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #2f3135;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+.sidebarVoiceInfo{
+  flex: 1;
+  padding: 10px;
+}
+.sidebarVoiceIcon{
+  color: #4fb185;
+}
+.sidebarVoiceInfo >h3{
+  color: #4fb185;
+}
+.sidebarVoiceInfo>p{
+  font-size: smaller;
+}
+.sidebarVoiceIcons > .MuiSvgIcon-root{
+  padding:10px;
+}
+
+.sidebarProfileInfo{
+  flex: 1;
+  padding: 10px;
+}
+.sidebarProfileInfo>h3{
+  color: white;
+}
+
+.sidebarProfileIcons > .MuiSvgIcon-root{
+  padding:10px;
+}
